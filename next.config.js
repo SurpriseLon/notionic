@@ -20,7 +20,7 @@ module.exports = {
     localeDetection: false
   },
   images: {
-    domains: ['api.craft.do', 'www.notion.so', 'images.unsplash.com', 's3.us-west-2.amazonaws.com']
+    domains: ['onedrive-vercel-index-beta-pearl.vercel.app', 'api.craft.do', 'www.notion.so', 'images.unsplash.com', 's3.us-west-2.amazonaws.com']
   },
   async headers() {
     return [
