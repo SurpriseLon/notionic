@@ -8,6 +8,13 @@ html {
   --thumbBG: #b8b8b8;
   overflow-y: scroll;
   overflow-x: auto;
+  --heo-card-bg: #fff;
+  --heo-card-bg-op: var(--heo-black-op);
+  --heo-card-bg-none: rgba(255, 255, 255, 0);
+  --heo-lighttext: #f2b94b;
+  --style-border-always: 1px solid var(--heo-card-border);
+  --heo-card-border: #e3e8f7;
+  --heo-fontcolor: #363636;
 }
 html::-webkit-scrollbar {
   width: 5px;
@@ -54,7 +61,15 @@ nav {
 }
 
 .article-tags::-webkit-scrollbar {
-  width: 0 !important;
+  background: var(--heo-card-bg);
+  border: var(--style-border-always);
+  color: var(--heo-fontcolor);
+  border-radius: 8px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  height: 34px;
 }
 
 .tag-container ul::-webkit-scrollbar {
