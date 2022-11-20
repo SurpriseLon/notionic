@@ -2,7 +2,7 @@ const BLOG = {
   title: 'DragonJay の wiki',
   author: 'DragonJay',
   email: 'furrybox@furrysp.top',
-  link: 'https://furrysp.top',
+  link: 'https://www.furrysp.top',
   newsletter: 'Notionic Weekly',
   description: 'A static wiki build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
