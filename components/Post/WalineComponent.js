@@ -26,7 +26,6 @@ const WalineComponent = (props) => {
       serverURL: BLOG.comment.walineCommentConfig.serverURL,
       emoji: [
         'https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/',
-        'https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/',
         'https://unpkg.com/@waline/emojis@1.1.0/alus',
         'https://unpkg.com/@waline/emojis@1.1.0/bilibili',
         'https://unpkg.com/@waline/emojis@1.1.0/bmoji',
