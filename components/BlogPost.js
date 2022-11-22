@@ -4,6 +4,7 @@ import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
+import AdSense from 'react-ssr-adsense'
 
 const BlogPost = ({ post }) => {
   const { locale } = useRouter()
@@ -33,17 +34,14 @@ const BlogPost = ({ post }) => {
             {/* w-4/5  */}
           </div>
         </article>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8434505608196685"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style={{ display: 0 }}
-     data-ad-format="fluid"
-     data-ad-layout-key="-fb+5w+4e-db+86"
-     data-ad-client="ca-pub-8434505608196685"
-     data-ad-slot="3391154328"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        <AdSense
+         client='ca-pub-8434505608196685'
+         slot='3391154328'
+         style={{ display: 'block' }}
+         format='auto'
+         responsive='true'
+         layoutKey='-gw-1+2a-9x+5c'
+       />
       </Link>
     </motion.div>
   )
