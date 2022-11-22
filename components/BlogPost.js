@@ -42,7 +42,7 @@ const BlogPost = ({ post }) => {
          layoutKey='-gw-1+2a-9x+5c'
         />
         <div>
-         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8434505608196685"></script>
         </div>
         </article>
       </Link>

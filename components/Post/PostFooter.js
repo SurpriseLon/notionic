@@ -2,6 +2,7 @@ import BLOG from '@/blog.config'
 import { useState } from 'react'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
+import AdSense from 'react-ssr-adsense'
 
 import WechatPay from '@/components/Post/WechatPay'
 import { MailIcon, ThumbUpIcon } from '@heroicons/react/outline'
@@ -33,6 +34,17 @@ const PostFooter = () => {
             <MailIcon className='flex flex-col justify-center items-center select-none cursor-pointer relative w-5 h-5' />
             {t.LAYOUT.NOTICE_BUTTON}
           </button>
+        </div>
+        <AdSense
+         client='ca-pub-8434505608196685'
+         slot='3391154328'
+         style={{ display: 'block' }}
+         format='auto'
+         responsive='true'
+         layoutKey='-gw-1+2a-9x+5c'
+        />
+        <div>
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8434505608196685"></script>
         </div>
       </div>
       {showPay && <WechatPay />}
