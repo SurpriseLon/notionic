@@ -46,7 +46,7 @@ const Page404 = ({ statusCode }) => {
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8434505608196685"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
-     style="display:block"
+     style={{ display: 0 }}
      data-ad-format="fluid"
      data-ad-layout-key="-fb+5w+4e-db+86"
      data-ad-client="ca-pub-8434505608196685"

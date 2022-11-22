@@ -28,7 +28,7 @@ const Aside = ({ subPageTitle, frontMatter }) => {
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8434505608196685"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
-     style="display:block"
+     style={{ display: 0 }}
      data-ad-client="ca-pub-8434505608196685"
      data-ad-slot="5252888801"
      data-ad-format="auto"
