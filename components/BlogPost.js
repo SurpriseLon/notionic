@@ -4,6 +4,7 @@ import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
+import AdSense from 'react-ssr-adsense'
 
 const BlogPost = ({ post }) => {
   const { locale } = useRouter()
@@ -32,6 +33,14 @@ const BlogPost = ({ post }) => {
             <p className='font-light hidden md:block leading-8 text-gray-700 dark:text-gray-300'>{post.summary}</p>
             {/* w-4/5  */}
           </div>
+          <AdSense
+         client='ca-pub-8434505608196685'
+         slot='3391154328'
+         style={{ display: 'block' }}
+         format='auto'
+         responsive='true'
+         layoutKey='-gw-1+2a-9x+5c'
+        />
         </article>
       </Link>
     </motion.div>
