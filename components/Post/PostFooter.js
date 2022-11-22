@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 
 import WechatPay from '@/components/Post/WechatPay'
 import { MailIcon, ThumbUpIcon } from '@heroicons/react/outline'
-import AdSense from 'react-ssr-adsense'
 
 const PostFooter = () => {
   const [showPay, setShowPay] = useState(false)
@@ -36,14 +35,6 @@ const PostFooter = () => {
           </button>
         </div>
       </div>
-      <AdSense
-         client='ca-pub-8434505608196685'
-         slot='3391154328'
-         style={{ display: 'block' }}
-         format='auto'
-         responsive='true'
-         layoutKey='-gw-1+2a-9x+5c'
-       />
       {showPay && <WechatPay />}
     </div>
   )

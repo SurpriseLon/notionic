@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { ExternalLinkIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
-import AdSense from 'react-ssr-adsense'
 
 export default function Loading({ notionSlug }) {
   const { locale } = useRouter()
@@ -52,14 +51,6 @@ export default function Loading({ notionSlug }) {
             </Link>
           }
         </div>
-        <AdSense
-         client='ca-pub-8434505608196685'
-         slot='3391154328'
-         style={{ display: 'block' }}
-         format='auto'
-         responsive='true'
-         layoutKey='-gw-1+2a-9x+5c'
-       />
       </div>
     </div>
   )

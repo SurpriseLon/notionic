@@ -10,7 +10,6 @@ import {
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import { motion } from 'framer-motion'
-import AdSense from 'react-ssr-adsense'
 
 const Footer = ({ fullWidth }) => {
   const router = useRouter()
@@ -103,14 +102,6 @@ const Footer = ({ fullWidth }) => {
             {t.FOOTER.COPYRIGHT_END}
           </p>
         </div>
-        <AdSense
-         client='ca-pub-8434505608196685'
-         slot='3391154328'
-         style={{ display: 'block' }}
-         format='auto'
-         responsive='true'
-         layoutKey='-gw-1+2a-9x+5c'
-       />
       </footer>
     </motion.div>
   )

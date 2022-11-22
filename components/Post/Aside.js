@@ -1,7 +1,6 @@
 import BLOG from '@/blog.config'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import AdSense from 'react-ssr-adsense'
 
 import WechatPay from '@/components/Post/WechatPay'
 import { ThumbUpIcon, ChevronLeftIcon, ArrowUpIcon } from '@heroicons/react/outline'
@@ -26,14 +25,6 @@ const Aside = ({ subPageTitle, frontMatter }) => {
   return (
     <>
       <aside className='hidden sticky md:flex md:flex-col md:items-center md:self-start md:ml-8 md:inset-y-1/2'>
-      <AdSense
-         client='ca-pub-8434505608196685'
-         slot='3391154328'
-         style={{ display: 'block' }}
-         format='auto'
-         responsive='true'
-         layoutKey='-gw-1+2a-9x+5c'
-       />
         <div className='flex flex-col items-center text-center'>
           <div className='bg-gray-100 dark:bg-gray-700 grid rounded-lg block p-2 gap-y-5 nav'>
             <button
