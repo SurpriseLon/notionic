@@ -6,7 +6,8 @@ import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
 import AdSense from 'react-ssr-adsense'
 
-const script = document.createElement('script')
+// eslint-disable-next-line no-var
+var script = document.createElement('script')
 script.type = 'text/javascript'
 script.async = true
 script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
