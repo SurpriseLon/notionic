@@ -6,13 +6,6 @@ import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
 import AdSense from 'react-ssr-adsense'
 
-// eslint-disable-next-line no-var
-var script = document.createElement('script')
-script.type = 'text/javascript'
-script.async = true
-script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-document.head.appendChild(script)
-
 const BlogPost = ({ post }) => {
   const { locale } = useRouter()
   return (
@@ -40,7 +33,6 @@ const BlogPost = ({ post }) => {
             <p className='font-light hidden md:block leading-8 text-gray-700 dark:text-gray-300'>{post.summary}</p>
             {/* w-4/5  */}
           </div>
-          <div id='script'></div>
           <AdSense
          client='ca-pub-8434505608196685'
          slot='3391154328'
