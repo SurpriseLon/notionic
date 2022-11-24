@@ -13,6 +13,7 @@ import Comments from '@/components/Post/Comments'
 import Container from '@/components/Container'
 import PostFooter from '@/components/Post/PostFooter'
 import TagItem from '@/components/Common/TagItem'
+import { AnalyticsWrapper } from '@/components/analytics'
 
 import { ChevronLeftIcon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
@@ -166,6 +167,10 @@ const Layout = ({ children, blockMap, frontMatter, fullWidth = false, subPage = 
                   ))}
                 </div>
               )}
+              <AnalyticsWrapper />
+              <div class="font-serif font-semibold text-black dark:text-white">浏览量
+<span class="waline-pageview-count" />
+</div>
             </nav>
           )}
           {children}
