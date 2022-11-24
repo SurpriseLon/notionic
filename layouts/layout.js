@@ -168,7 +168,7 @@ const Layout = ({ children, blockMap, frontMatter, fullWidth = false, subPage = 
                 </div>
               )}
               <AnalyticsWrapper />
-              <div class="font-serif font-semibold text-black dark:text-white">浏览量
+              <div class="font-serif font-semibold text-black dark:text-white">views
 <span class="waline-pageview-count" />
 </div>
             </nav>
