@@ -1,5 +1,4 @@
 module.exports = {
-  webpack5: true,
   eslint: {
     dirs: ['components', 'layouts', 'lib', 'pages']
   },

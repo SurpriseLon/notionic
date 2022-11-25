@@ -3,7 +3,7 @@ import BlogPost from '@/components/BlogPost'
 import Hero from '@/components/Hero/Home'
 import Pagination from '@/components/Pagination'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
-import BLOG from '@/blog.concfig'
+import BLOG from '@/blog.config.js'
 
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
