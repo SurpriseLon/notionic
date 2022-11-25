@@ -1,4 +1,4 @@
-import { TranslateIcon } from '@heroicons/react/24/outline'
+import { TranslateIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 

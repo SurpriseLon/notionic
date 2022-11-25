@@ -2,7 +2,7 @@ import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
-import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/24/outline'
+import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/outline'
 
 const Pagination = ({ page, showNext }) => {
   const { locale } = useRouter()

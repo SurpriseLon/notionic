@@ -15,7 +15,7 @@ import PostFooter from '@/components/Post/PostFooter'
 import TagItem from '@/components/Common/TagItem'
 import { AnalyticsWrapper } from '@/components/analytics'
 
-import { ChevronLeftIcon } from '@heroicons/react/24/outline'
+import { ChevronLeftIcon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
 
 const Code = dynamic(() =>

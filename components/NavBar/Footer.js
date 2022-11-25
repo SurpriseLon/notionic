@@ -7,7 +7,7 @@ import {
   UsersIcon,
   BookOpenIcon,
   MailIcon
-} from '@heroicons/react/24/outline'
+} from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import { motion } from 'framer-motion'
 

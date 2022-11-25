@@ -2,7 +2,7 @@ import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
-import { ExternalLinkIcon } from '@heroicons/react/24/outline'
+import { ExternalLinkIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import AdSense from 'react-ssr-adsense'
 
