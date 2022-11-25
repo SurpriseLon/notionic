@@ -2,8 +2,6 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import 'lazysizes'
 import 'lazysizes/plugins/parent-fit/ls.parent-fit'
-import { Fancybox } from '@fancyapps/ui'
-import '@fancyapps/ui/dist/fancybox.css'
 
 export default function ImageFallback({ src, fallbackSrc, alt, ...rest }) {
   const [imgSrc, setImgSrc] = useState(src)
@@ -13,7 +11,6 @@ export default function ImageFallback({ src, fallbackSrc, alt, ...rest }) {
   }, [src])
 
   return (
-    <Fancybox>
     <Image
       {...rest}
       src={imgSrc}
@@ -29,6 +26,5 @@ export default function ImageFallback({ src, fallbackSrc, alt, ...rest }) {
         setImgSrc(fallbackSrc)
       }}
     />
-    </Fancybox>
   )
 }
