@@ -23,6 +23,9 @@ import NProgress from 'nprogress'
 import '@/styles/nprogress.css'
 import Header from '@/components/NavBar/Header'
 import Footer from '@/components/NavBar/Footer'
+import { FpjsProvider } from '@fingerprintjs/fingerprintjs-pro-react'
+import 'animate.css'
+import 'tippy.js/dist/tippy.css'
 
 const Ackee = dynamic(() => import('@/components/Common/Ackee'), { ssr: false })
 const Gtag = dynamic(() => import('@/components/Common/Gtag'), { ssr: false })
@@ -77,6 +80,13 @@ function MyApp({ Component, pageProps }) {
         </TransitionEffect>
         <Footer fullWidth={pageProps.post ? pageProps.post.fullWidth : false} />
       </ThemeProvider>
+      <FpjsProvider
+      loadOptions={{
+        apiKey: '4Y07f9Hm0bg5jR1b299P'
+      }}
+    >
+      <Component {...pageProps} />
+    </FpjsProvider>
     </>
   )
 }

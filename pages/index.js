@@ -4,6 +4,8 @@ import Hero from '@/components/Hero/Home'
 import Pagination from '@/components/Pagination'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
 import BLOG from '@/blog.config'
+import 'animate.css'
+import 'tippy.js/dist/tippy.css'
 
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
