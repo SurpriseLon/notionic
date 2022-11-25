@@ -48,7 +48,7 @@
     "use-ackee": "^3.0.1"
   },
   "devDependencies": {
-    "@heroicons/react": "^1.4.1",
+    "@heroicons/react": "^2.0.13",
     "@types/react": "^18.0.25",
     "@waline/client": "^2.14.1",
     "autoprefixer": "^10.4.3",
