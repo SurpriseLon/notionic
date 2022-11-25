@@ -4,7 +4,7 @@ import Link from 'next/link'
 import AdSense from 'react-ssr-adsense'
 
 import WechatPay from '@/components/Post/WechatPay'
-import { ThumbUpIcon, ChevronLeftIcon, ArrowUpIcon } from '@heroicons/react/outline'
+import { ThumbUpIcon, ChevronLeftIcon, ArrowUpIcon } from '@heroicons/react/24/outline'
 
 const Aside = ({ subPageTitle, frontMatter }) => {
   const [showPay, setShowPay] = useState(false)

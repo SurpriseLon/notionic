@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import AdSense from 'react-ssr-adsense'
 
 import WechatPay from '@/components/Post/WechatPay'
-import { MailIcon, ThumbUpIcon } from '@heroicons/react/outline'
+import { MailIcon, ThumbUpIcon } from '@heroicons/react/24/outline'
 
 const PostFooter = () => {
   const [showPay, setShowPay] = useState(false)

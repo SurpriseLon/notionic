@@ -9,7 +9,7 @@ import {
   MailIcon,
   RssIcon,
   ClipboardCheckIcon
-} from '@heroicons/react/outline'
+} from '@heroicons/react/24/outline'
 import dynamic from 'next/dynamic'
 import { NotionRenderer } from 'react-notion-x'
 

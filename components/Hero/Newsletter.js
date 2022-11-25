@@ -4,7 +4,7 @@ import Social from '../Common/Social.js'
 import { useState } from 'react'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
-import { NewspaperIcon, ClipboardCheckIcon } from '@heroicons/react/outline'
+import { NewspaperIcon, ClipboardCheckIcon } from '@heroicons/react/24/outline'
 import dynamic from 'next/dynamic'
 import { NotionRenderer } from 'react-notion-x'
 
