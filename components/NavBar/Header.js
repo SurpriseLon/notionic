@@ -10,7 +10,7 @@ import {
   SparklesIcon,
   SearchIcon,
   MenuIcon
-} from '@heroicons/react/outline'
+} from '@heroicons/react/24/outline'
 import Social from '../Common/Social.js'
 import ThemeSwitcher from './ThemeSwitcher.js'
 import LangSwitcher from './LangSwitcher.js'
