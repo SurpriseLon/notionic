@@ -6,8 +6,7 @@ Notionic is a static blog that updates in real time, synchronizing changes to No
 
 ## Demo
 
-- Notionic: [https://notionic.vercel.app](https://notionic.vercel.app)
-- My Blog: [https://zuolan.me](https://zuolan.me)
+- My Blog: [https://furrysp.top](https://furrysp.top)
 
 ## Features
 
